@@ -2822,7 +2822,7 @@ input[type="button"].btn-block {
   padding-bottom: 0.30875rem;
   margin-right: 1.5rem;
   font-size: 1.0625rem;
-  line-height: inherit;
+  font-weight: bold;
   white-space: nowrap; }
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
