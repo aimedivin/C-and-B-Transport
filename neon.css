@@ -2896,9 +2896,7 @@ input[type="button"].btn-block {
       flex-wrap: nowrap; }
     .navbar-expand-md .navbar-collapse {
       display: flex !important;
-      flex-basis: auto; }
-    .navbar-expand-md .navbar-toggler {
-      display: none; } }
+      flex-basis: auto; } }
 
 @media (max-width: 991.98px) {
   .navbar-expand-lg > .container,
