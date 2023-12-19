@@ -333,30 +333,15 @@ h6, .h6 {
   font-weight: 300; }
 
 .display-1 {
-  font-size: 6rem;
-  font-weight: 300;
-  line-height: 1.2; }
+  text-align: center;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-weight: 800;
+  line-height: 2.5;
+}
 
-.display-2 {
-  font-size: 5.5rem;
-  font-weight: 300;
-  line-height: 1.2; }
-
-.display-3 {
-  font-size: 4.5rem;
-  font-weight: 300;
-  line-height: 1.2; }
-
-.display-4 {
-  font-size: 3.5rem;
-  font-weight: 300;
-  line-height: 1.2; }
-
-hr {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  border: 0;
-  border-top: 1px solid rgba(241, 205, 49, 0.75); }
+.mb-4 {
+  font-family:unset;
+}
 
 small,
 .small {
@@ -2731,8 +2716,10 @@ input[type="button"].btn-block {
 .custom-control-label::before,
 .custom-file-label,
 .custom-select {
-  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
-  @media screen and (prefers-reduced-motion: reduce) {
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; 
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
     .custom-control-label::before,
     .custom-file-label,
     .custom-select {
@@ -2816,15 +2803,13 @@ input[type="button"].btn-block {
     justify-content: space-between; }
 
 .navbar-brand {
+  text-decoration: none;
   display: inline-block;
-  padding-top: 0.30875rem;
-  padding-bottom: 0.30875rem;
   margin-right: 1.5rem;
   font-size: 1.0625rem;
-  line-height: inherit;
-  white-space: nowrap; }
-  .navbar-brand:hover, .navbar-brand:focus {
-    text-decoration: none; }
+  font-weight: 900;
+  white-space: nowrap;
+}
 
 .navbar-nav {
   display: flex;
@@ -3029,10 +3014,6 @@ input[type="button"].btn-block {
     .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
       color: rgba(0, 0, 0, 0.9); }
 
-.navbar-dark .navbar-brand {
-  color: #fff; }
-  .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-    color: #fff; }
 
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.5); }
@@ -5024,9 +5005,6 @@ button.bg-dark:focus {
 .my-4 {
   margin-top: 2.25rem !important; }
 
-.mr-4,
-.mx-4 {
-  margin-right: 2.25rem !important; }
 
 .mb-4,
 .my-4 {
@@ -5035,9 +5013,6 @@ button.bg-dark:focus {
 .ml-4,
 .mx-4 {
   margin-left: 2.25rem !important; }
-
-.m-5 {
-  margin: 4.5rem !important; }
 
 .mt-5,
 .my-5 {
